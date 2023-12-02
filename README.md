@@ -18,6 +18,6 @@ Enum type to allow more readable return values from functions.
 # LinkedList/
 Implementation of a linked list.
 
-# AdventOfCode_2023
+# AdventOfCode_2023/
 Codes to the advent of code 2023 edition
 
