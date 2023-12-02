@@ -1,38 +1,11 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-#include "LinkedList/LinkedList.h"
-#include "Utils.h"
+#include "AdventOfCode_2023/1/code.h"
 
-int main() {
-    LList nouv = emptyLList();
+int main(int argc, char ** argv) {
 
-    printf("Est ce que la liste est vide ?");
-    printReturnCode(isLListEmpty(nouv));
-
-    printf("Est ce que la liste est vide ?");
-    printReturnCode(isLListEmpty(nouv));
-
-    printLList(nouv);
-
-    addSorted(&nouv, 1);
-    addSorted(&nouv, 5);
-    addSorted(&nouv, 27);
-    addSorted(&nouv, 11);
-    addSorted(&nouv, 2);
-    addSorted(&nouv, 0);
-    addSorted(&nouv, 31);
-    addSorted(&nouv, -5);
-    addSorted(&nouv, 11);
-    addEnd(&nouv, 11);
-    addStart(&nouv, 11);
-    addEnd(&nouv, 11);
-
-    printLList(nouv);
-
-    removeNthVal(&nouv, 3);
-    removeNthVal(&nouv, 3);
-
-    printLList(nouv);
+    one();
 
     return 0;
 }

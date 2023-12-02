@@ -7,4 +7,6 @@ add_executable(Algorithms___Data_Structure main.c
         LinkedList/LinkedList.c
         LinkedList/LinkedList.h
         Utils.h
-        ReturnCode.c)
+        ReturnCode.c
+        AdventOfCode_2023/1/code.c
+        AdventOfCode_2023/1/code.h)
