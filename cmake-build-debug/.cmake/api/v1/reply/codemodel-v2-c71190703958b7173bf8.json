@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Programmation/Algorithm/Algorithms_&_Data_Structures/cmake-build-debug",
-		"source" : "C:/Programmation/Algorithm/Algorithms_&_Data_Structures"
+		"build" : "C:/Programmation/Algorithmics_and_stuff/cmake-build-debug",
+		"source" : "C:/Programmation/Algorithmics_and_stuff"
 	},
 	"version" : 
 	{
